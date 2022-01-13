@@ -2,6 +2,7 @@ This is the first time using github
 # **Lab Report**
 ---
 *This is in italics*
+**This is in bold**
 
 1. One
 2. Two
