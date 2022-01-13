@@ -1,5 +1,7 @@
 This is the first time using github
 # **Lab Report**
+
+[Lab Report 1](lab-report-1-week-2.html)
 ---
 ## Heading 2
 *This is in italics*
@@ -28,6 +30,3 @@ contain code block
 * List 3
 
 I am adding this is VSCode.
-
-[Lab Report 1](lab-report-1-week-2.html)
-[Lab Report 1](https://mmizumoto1213.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
