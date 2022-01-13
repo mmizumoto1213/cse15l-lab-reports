@@ -2,7 +2,21 @@ This is the first time using github
 # **Lab Report**
 ---
 *This is in italics*
+
 **This is in bold**
+
+[CSE15l Week 2 Page](https://ucsd-cse15l-w22.github.io/week/week2/)
+
+![UCSD CSE](http://cse.ucsd.edu/sites/cse/files/cse/CSELogo_text_color.gif)
+
+> In Blockquotes
+
+'System.out.println("Coding!")'
+
+...
+this is supposed to
+contain code block
+...
 
 1. One
 2. Two
