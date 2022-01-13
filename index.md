@@ -11,12 +11,12 @@ This is the first time using github
 
 > In Blockquotes
 
-'System.out.println("Coding!")'
+`System.out.println("Coding!")`
 
-...
+```
 this is supposed to
 contain code block
-...
+```
 
 1. One
 2. Two
