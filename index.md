@@ -1,6 +1,7 @@
 This is the first time using github
 # **Lab Report**
 ---
+## Heading 2
 *This is in italics*
 
 **This is in bold**
