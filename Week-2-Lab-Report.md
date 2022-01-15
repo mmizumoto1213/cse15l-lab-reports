@@ -21,7 +21,8 @@ Once you have logged in you can test out some commands.
 
 ![Commands](lab1Part4.PNG)
 
-Here we test the `cd` command which does not print anything and the `ls` command which lists some files.
+Here we test the commands `cd` and `ls`
+The `cd` does not print anything and the `ls` command lists some files.
 
 Once you have tried testing some commands you can create a file and add some code.
 Then you can upload the file to the remote server with the `scp` command and run your code.
