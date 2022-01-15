@@ -21,14 +21,14 @@ Once you have logged in you can test out some commands.
 
 ![Commands](lab1Part4.PNG)
 
-Here we test the cd command which should not print anything and the ls command which lists some files.
+Here we test the `cd` command which does not print anything and the `ls` command which lists some files.
 
 Once you have tried testing some commands you can create a file and add some code.
 Then you can upload the file to the remote server with the `scp` command and run your code.
 
 ![scp command](lab1Part5.PNG)
 
-As we can see in the picture when we run ls the file WhereAmI.java has been uploaded to the remote server and can be run.
+As we can see in the picture when we run `ls`, the file WhereAmI.java has been uploaded to the remote server and can be run.
 
 As we get more used to using the remote server entering our password every time we want to login or upload a file can get repetitive.
 To skip this step we can create a SSH key with the command `ssh-keygen` to skip the step of having to enter our password
