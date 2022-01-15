@@ -20,3 +20,12 @@ Then enter your password to login into the remote server.
 Once you have logged in you can test out some commands.
 
 ![Commands](lab1Part4.PNG)
+
+Here we test the cd command which should not print anything and the ls command which lists some files.
+
+Once you have tried testing some commands you can create a file and add some code.
+Then you can upload the file to the remote server with the `scp` command and run your code.
+
+![scp command](lab1Part5.PNG)
+
+As we can see in the picture when we run ls the file WhereAmI.java has been uploaded to the remote server and can be run.
