@@ -14,4 +14,4 @@ After you have set up your account and password you can log into your account in
 
 Once you are in VSCode you can type ssh cse15lwi22aqe@ieng6.ucsd.edu then enter your password to login into the remote server.
 
-![Logging into Remote Server](VSCode ssh login.PNG)
+![Logging into Remote Server](VSCode%20ssh%20login.PNG)
