@@ -1,9 +1,13 @@
+# Week 2 Lab Report
+## Installing VSCode
 The first step about how to log into a course-specific account on ieng6 is to install VScode. To do this search up VSCode in your browser and click on the download.
+[VSCode Download Page](https://code.visualstudio.com/download)
 
 ![VSCode Download](VSCodeDownloadPage.PNG)
 
 On this website you should click the download button for your operating system and install VSCode.
 
+## Remotely Connecting
 The next step to logging into a course-specific account is to install OpenSSH.
 
 To install open SSH you should open settings > Apps > Apps and Features > Optional Features. 
@@ -17,6 +21,7 @@ Then enter your password to login into the remote server.
 
 ![Logging into Remote Server](VSCode%20ssh%20login.PNG)
 
+## Trying Some Commands
 Once you have logged in you can test out some commands.
 
 ![Commands](lab1Part4.PNG)
@@ -24,6 +29,7 @@ Once you have logged in you can test out some commands.
 Here we test the commands `cd` and `ls`
 The `cd` does not print anything and the `ls` command lists some files.
 
+## Moving Files with scp
 Once you have tried testing some commands you can create a file and add some code.
 Then you can upload the file to the remote server with the `scp` command and run your code.
 
@@ -31,6 +37,7 @@ Then you can upload the file to the remote server with the `scp` command and run
 
 As we can see in the picture when we run `ls`, the file WhereAmI.java has been uploaded to the remote server and can be run.
 
+## Setting an SSH Key
 As we get more used to using the remote server entering our password every time we want to login or upload a file can get repetitive.
 To skip this step we can create a SSH key with the command `ssh-keygen` to skip the step of having to enter our password
 When you run this command you need to enter the file in which you want to save the key and can leave no passphrase.
@@ -38,6 +45,7 @@ Once you have done this you should be able to login to the remote server without
 
 ![login without password](lab1Part6.PNG)
 
+## Optimizing Remote Running
 Some other things you can do to optimize running is to compress all the commands that you run into a single line.
 You can do this because after you type `ssh cse15lwi22aqe@ieng6.ucsd.edu` you can enter the command you want to run in quotes to login to the remote server run the command and logout.
 You can also write mutliple commands in a single line by using a semicolon to separate commands.
@@ -45,3 +53,8 @@ Lastly you can use the up arrow to reuse past commands you have written
 With this information you can signifcantly reduce the amount of time you spend having to test your code.
 
 ![Single Command](VSCodeOptimization.PNG)
+
+After we have run this command once we are able to update the file, login to SSH, run updated file, and logout in 3 keystrokes.
+These 3 keystrokes are clicking the terminal, pressing the up arrow, and pressing enter.
+This is a significant improvement in time because the in part 5 of the lab we used 9 keystrokes to do all of this.
+These 9 keystrokes were clicking the terminal, pressing the up arrow and enter for scp, pressing the up arrow and enter for ssh login, pressing the up arrow and enter for javac, and pressing the up arrow and enter for java.
