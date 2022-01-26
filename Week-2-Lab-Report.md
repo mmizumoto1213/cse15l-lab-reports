@@ -56,5 +56,5 @@ With this information you can signifcantly reduce the amount of time you spend h
 
 After we have run this command once we are able to update the file, login to SSH, run updated file, and logout in 3 keystrokes.
 These 3 keystrokes are clicking the terminal, pressing the up arrow, and pressing enter.
-This is a significant improvement in time because the in part 5 of the lab we used 9 keystrokes to do all of this.
-These 9 keystrokes were clicking the terminal, pressing the up arrow and enter for scp, pressing the up arrow and enter for ssh login, pressing the up arrow and enter for javac, and pressing the up arrow and enter for java.
+This is a significant improvement in time because in part 5 of the lab we used 9 keystrokes to do all of this.
+These 9 keystrokes were clicking the terminal, pressing the up arrow and enter for scp, pressing the up arrow and enter for ssh login, pressing the up arrow and enter for javac WhereAmI.java, and pressing the up arrow and enter for java WhereAmI.
