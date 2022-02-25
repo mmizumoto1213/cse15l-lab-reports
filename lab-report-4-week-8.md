@@ -25,13 +25,13 @@ it does not overlap with any brackets or opening parenthesis used for the link s
 We should be able to implement this in a similar way we check for the opening and closing brackets 
 and parenthesis.
 
-For snippit 2 I think it would be difficult to fix this with a small code change. For this we
+For snippit 2 I think it would be difficult to fix this issue with a small code change. For this we
 could create a method similar to the findCloseParen that was in the `MarkdownParse.java` of
-the example code the week 8 lab "Using a Debugger" section. However, as we saw, implementing this 
+the example code in the week 8 lab "Using a Debugger" section. However, as we saw, implementing this 
 method requires more than 10 lines of code.
 
 For snippit 3 I think it would be difficult to fix this issue with a small code change. For 
-this issue we need to look at if there is more than one consecutive /n any part of the brackets or
-the parenthesis, and we need to trim any single /n we find in the within the link before or after the
-link within the parenthesis. To do this, it would definitely require more than 10 lines of code so
-we would not be able to fix this with a small code change.
+this issue we need to look for when there is more than one consecutive /n in any part of the brackets or
+the parenthesis, and we need to trim any single /n we find in the within the parenthesis before or after the
+link. To do this, it would likely require more than 10 lines of code so we would not be able to fix this 
+with a small code change.
