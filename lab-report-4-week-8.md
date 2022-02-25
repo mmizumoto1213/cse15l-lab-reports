@@ -20,10 +20,10 @@ Corresponding output for the viewed MarkdownParse
 # Answering the questions with 2-3 sentences each
 
 For snippit 1 I think it would be possible to fix this problem with a small code change.
-All this would require is to implement another variable that checks for ` ` ` and ensure
+All this would require is to implement another variable that checks for backticks and ensure
 it does not overlap with any brackets or opening parenthesis used for the link syntax. 
-We should be able to implement this relatively easily in a slightly similar way we check
-for the opening and closing brackets and parenthesis.
+We should be able to implement this in a similar way we check for the opening and closing brackets 
+and parenthesis.
 
 For snippit 2 I think it would be difficult to fix this with a small code change. For this we
 could create a method similar to the findCloseParen that was in the `MarkdownParse.java` of
