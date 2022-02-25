@@ -20,7 +20,7 @@ Corresponding output for the viewed MarkdownParse
 # Answering the questions with 2-3 sentences each
 
 For snippit 1 I think it would be possible to fix this problem with a small code change.
-All this would require is to implement another variable that checks for `%60` and ensure
+All this would require is to implement another variable that checks for ` ` ` and ensure
 it does not overlap with any brackets or opening parenthesis used for the link syntax. 
 We should be able to implement this relatively easily in a slightly similar way we check
 for the opening and closing brackets and parenthesis.
