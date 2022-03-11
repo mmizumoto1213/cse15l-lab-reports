@@ -20,15 +20,19 @@ Now that we know which tests failed we are able to look inside these test files 
 # Part 2
 
 ![Test 194](Test194.PNG)
-The given code produces the output `url` after running this test.
+
+The code that was given produces the output `url` after running this test.
 
 ![Given Code's Issue To Fix](194Problem.PNG)
+
 The expected output from running test 194 is an empty list. This is because test file 194 is not following the format of a file. The issue in the given code is that it is only
 looking for open brackets, closing brackets, open parenthesis, and closing parenthesis to exist. It is not checking that the closing bracket is next to the open parenthesis.
 
 ![Test 22](Test22.PNG)
+
 Our code produces the `output /bar\* "ti\*tle"` after running this test.
 
 ![Our Code's Issue To Fix](22Problem.PNG)
+
 The expected output from running test 22 is an empty list. This is because there is a space inside the parenthesis in between text. The issue in our code is that we do not check
 for spaces in between text inside of our links. We can fix this by adding an if statement before we add the potential link to our list.
