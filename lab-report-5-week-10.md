@@ -26,7 +26,8 @@ The code that was given produces the output `url` after running this test.
 ![Given Code's Issue To Fix](194Problem.PNG)
 
 The expected output from running test 194 is an empty list. This is because test file 194 is not following the format of a file. The issue in the given code is that it is only
-looking for open brackets, closing brackets, open parenthesis, and closing parenthesis to exist. It is not checking that the closing bracket is next to the open parenthesis.
+ensuring that open brackets, closing brackets, open parenthesis, and closing parenthesis are in the file. It is not checking that the closing bracket is next to the open
+parenthesis.
 
 ![Test 22](Test22.PNG)
 
