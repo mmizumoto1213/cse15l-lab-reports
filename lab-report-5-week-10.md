@@ -9,7 +9,7 @@ The two tests I chose for this lab report are tests that produced the output on 
 # Part 1
 In our lab we found the differences between our outputs using `diff`. We ran the command `diff /home/linux/ieng6/cs15lwi22/cs15lwi22aqe/class-clone/results.txt new-results.txt`
 to print out all of the outputs where our code produced a different output from the given code. From here we knew which lines in new-results.txt produced the differences so we
-looked inside new-results.txt using vim and found the lines were out output was different. We also found the corresponding test file to that output on the line above it.
+looked inside new-results.txt using vim and found the lines where our output was different. We also found the corresponding test file to that output on the line above it.
 
 ![Line 212](Line212Test.PNG)
 
