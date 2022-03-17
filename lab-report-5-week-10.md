@@ -35,5 +35,6 @@ Our code produces the `output /bar\* "ti\*tle"` after running this test.
 
 ![Our Code's Issue To Fix](22ProblemWithLineNumber.PNG)
 
-The expected output from running test 22 is an empty list. This is because there is a space inside the parenthesis in between text. The issue in our code is that we do not check
-for spaces in between text inside of our links. We can fix this by adding an if statement before we add the potential link to our list.
+The expected output from running test 22 is an empty list. This is because there is a space inside the parenthesis in between text. The issue in our code is that we 
+do not check for spaces in between text inside of our links (line 30-31). We can fix this by wrapping these lines in an if statement before we add the potential link
+to our list.
