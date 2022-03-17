@@ -27,7 +27,7 @@ The code that was given produces the output `url` after running this test.
 
 The expected output from running test 194 is an empty list. This is because test file 194 is not following the format of a file. The issue in the given code is that it is only
 ensuring that open brackets, closing brackets, open parenthesis, and closing parenthesis are in the file (Line 70-73). It is not checking that the closing bracket is
-next to the open parenthesis. There should be another if statement after line 73 that also checks that the closing bracket comes right after the open parenthesis.
+next to the open parenthesis. There should be another if statement after line 73 that also checks that the open parenthesis comes right after the closing brackets.
 
 ![Test 22](Test22.PNG)
 
